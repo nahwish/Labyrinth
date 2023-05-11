@@ -1,0 +1,3378 @@
+fileFormatVersion: 2
+guid: 344038736b4304b4fa8d113d9fbfea79
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: body
+  - first:
+      1: 100002
+    second: Breast2_L
+  - first:
+      1: 100004
+    second: Breast2_R
+  - first:
+      1: 100006
+    second: ButtTail1
+  - first:
+      1: 100008
+    second: ButtTail2
+  - first:
+      1: 100010
+    second: ButtTail3
+  - first:
+      1: 100012
+    second: Chest
+  - first:
+      1: 100014
+    second: Ear1_L
+  - first:
+      1: 100016
+    second: Ear1_R
+  - first:
+      1: 100018
+    second: Ear2_L
+  - first:
+      1: 100020
+    second: Ear2_R
+  - first:
+      1: 100022
+    second: Eye_L
+  - first:
+      1: 100024
+    second: Eye_R
+  - first:
+      1: 100026
+    second: Eyebrow_L
+  - first:
+      1: 100028
+    second: Eyebrow_R
+  - first:
+      1: 100030
+    second: //RootNode
+  - first:
+      1: 100032
+    second: Head
+  - first:
+      1: 100034
+    second: Hips
+  - first:
+      1: 100036
+    second: IndexFinger1_L
+  - first:
+      1: 100038
+    second: IndexFinger1_R
+  - first:
+      1: 100040
+    second: IndexFinger2_L
+  - first:
+      1: 100042
+    second: IndexFinger2_R
+  - first:
+      1: 100044
+    second: IndexFinger3_L
+  - first:
+      1: 100046
+    second: IndexFinger3_R
+  - first:
+      1: 100048
+    second: Left ankle
+  - first:
+      1: 100050
+    second: Left arm
+  - first:
+      1: 100052
+    second: Left elbow
+  - first:
+      1: 100054
+    second: Left knee
+  - first:
+      1: 100056
+    second: Left leg
+  - first:
+      1: 100058
+    second: Left shoulder
+  - first:
+      1: 100060
+    second: Left toe
+  - first:
+      1: 100062
+    second: Left wrist
+  - first:
+      1: 100064
+    second: LeftEye
+  - first:
+      1: 100066
+    second: LittleFinger1_L
+  - first:
+      1: 100068
+    second: LittleFinger1_R
+  - first:
+      1: 100070
+    second: LittleFinger2_L
+  - first:
+      1: 100072
+    second: LittleFinger2_R
+  - first:
+      1: 100074
+    second: LittleFinger3_L
+  - first:
+      1: 100076
+    second: LittleFinger3_R
+  - first:
+      1: 100078
+    second: MiddleFinger1_L
+  - first:
+      1: 100080
+    second: MiddleFinger1_R
+  - first:
+      1: 100082
+    second: MiddleFinger2_L
+  - first:
+      1: 100084
+    second: MiddleFinger2_R
+  - first:
+      1: 100086
+    second: MiddleFinger3_L
+  - first:
+      1: 100088
+    second: MiddleFinger3_R
+  - first:
+      1: 100090
+    second: Neck
+  - first:
+      1: 100092
+    second: Right ankle
+  - first:
+      1: 100094
+    second: Right arm
+  - first:
+      1: 100096
+    second: Right elbow
+  - first:
+      1: 100098
+    second: Right knee
+  - first:
+      1: 100100
+    second: Right leg
+  - first:
+      1: 100102
+    second: Right shoulder
+  - first:
+      1: 100104
+    second: Right toe
+  - first:
+      1: 100106
+    second: Right wrist
+  - first:
+      1: 100108
+    second: RightEye
+  - first:
+      1: 100110
+    second: RingFinger1_L
+  - first:
+      1: 100112
+    second: RingFinger1_R
+  - first:
+      1: 100114
+    second: RingFinger2_L
+  - first:
+      1: 100116
+    second: RingFinger2_R
+  - first:
+      1: 100118
+    second: RingFinger3_L
+  - first:
+      1: 100120
+    second: RingFinger3_R
+  - first:
+      1: 100122
+    second: Spine
+  - first:
+      1: 100124
+    second: Thumb0_L
+  - first:
+      1: 100126
+    second: Thumb0_R
+  - first:
+      1: 100128
+    second: Thumb1_L
+  - first:
+      1: 100130
+    second: Thumb1_R
+  - first:
+      1: 100132
+    second: Thumb2_L
+  - first:
+      1: 100134
+    second: Thumb2_R
+  - first:
+      1: 100136
+    second: Wing1_1_L
+  - first:
+      1: 100138
+    second: Wing1_1_R
+  - first:
+      1: 100140
+    second: Wing1_2_L
+  - first:
+      1: 100142
+    second: Wing1_2_R
+  - first:
+      1: 100144
+    second: Wing2_1_L
+  - first:
+      1: 100146
+    second: Wing2_1_R
+  - first:
+      1: 100148
+    second: Wing2_2_L
+  - first:
+      1: 100150
+    second: Wing2_2_R
+  - first:
+      1: 100152
+    second: Wing3_1_L
+  - first:
+      1: 100154
+    second: Wing3_1_R
+  - first:
+      1: 100156
+    second: Wing3_2_L
+  - first:
+      1: 100158
+    second: Wing3_2_R
+  - first:
+      1: 100160
+    second: Wing4_1_L
+  - first:
+      1: 100162
+    second: Wing4_1_R
+  - first:
+      1: 100164
+    second: Wing4_2_L
+  - first:
+      1: 100166
+    second: Wing4_2_R
+  - first:
+      1: 100168
+    second: Wing5_1_L
+  - first:
+      1: 100170
+    second: Wing5_1_R
+  - first:
+      1: 100172
+    second: Wing5_2_L
+  - first:
+      1: 100174
+    second: Wing5_2_R
+  - first:
+      1: 100176
+    second: Wing6_1_L
+  - first:
+      1: 100178
+    second: Wing6_1_R
+  - first:
+      1: 100180
+    second: Wing6_2_L
+  - first:
+      1: 100182
+    second: Wing6_2_R
+  - first:
+      1: 100184
+    second: Wing7_1_L
+  - first:
+      1: 100186
+    second: Wing7_1_R
+  - first:
+      1: 100188
+    second: Wing7_2_L
+  - first:
+      1: 100190
+    second: Wing7_2_R
+  - first:
+      4: 400000
+    second: body
+  - first:
+      4: 400002
+    second: Breast2_L
+  - first:
+      4: 400004
+    second: Breast2_R
+  - first:
+      4: 400006
+    second: ButtTail1
+  - first:
+      4: 400008
+    second: ButtTail2
+  - first:
+      4: 400010
+    second: ButtTail3
+  - first:
+      4: 400012
+    second: Chest
+  - first:
+      4: 400014
+    second: Ear1_L
+  - first:
+      4: 400016
+    second: Ear1_R
+  - first:
+      4: 400018
+    second: Ear2_L
+  - first:
+      4: 400020
+    second: Ear2_R
+  - first:
+      4: 400022
+    second: Eye_L
+  - first:
+      4: 400024
+    second: Eye_R
+  - first:
+      4: 400026
+    second: Eyebrow_L
+  - first:
+      4: 400028
+    second: Eyebrow_R
+  - first:
+      4: 400030
+    second: //RootNode
+  - first:
+      4: 400032
+    second: Head
+  - first:
+      4: 400034
+    second: Hips
+  - first:
+      4: 400036
+    second: IndexFinger1_L
+  - first:
+      4: 400038
+    second: IndexFinger1_R
+  - first:
+      4: 400040
+    second: IndexFinger2_L
+  - first:
+      4: 400042
+    second: IndexFinger2_R
+  - first:
+      4: 400044
+    second: IndexFinger3_L
+  - first:
+      4: 400046
+    second: IndexFinger3_R
+  - first:
+      4: 400048
+    second: Left ankle
+  - first:
+      4: 400050
+    second: Left arm
+  - first:
+      4: 400052
+    second: Left elbow
+  - first:
+      4: 400054
+    second: Left knee
+  - first:
+      4: 400056
+    second: Left leg
+  - first:
+      4: 400058
+    second: Left shoulder
+  - first:
+      4: 400060
+    second: Left toe
+  - first:
+      4: 400062
+    second: Left wrist
+  - first:
+      4: 400064
+    second: LeftEye
+  - first:
+      4: 400066
+    second: LittleFinger1_L
+  - first:
+      4: 400068
+    second: LittleFinger1_R
+  - first:
+      4: 400070
+    second: LittleFinger2_L
+  - first:
+      4: 400072
+    second: LittleFinger2_R
+  - first:
+      4: 400074
+    second: LittleFinger3_L
+  - first:
+      4: 400076
+    second: LittleFinger3_R
+  - first:
+      4: 400078
+    second: MiddleFinger1_L
+  - first:
+      4: 400080
+    second: MiddleFinger1_R
+  - first:
+      4: 400082
+    second: MiddleFinger2_L
+  - first:
+      4: 400084
+    second: MiddleFinger2_R
+  - first:
+      4: 400086
+    second: MiddleFinger3_L
+  - first:
+      4: 400088
+    second: MiddleFinger3_R
+  - first:
+      4: 400090
+    second: Neck
+  - first:
+      4: 400092
+    second: Right ankle
+  - first:
+      4: 400094
+    second: Right arm
+  - first:
+      4: 400096
+    second: Right elbow
+  - first:
+      4: 400098
+    second: Right knee
+  - first:
+      4: 400100
+    second: Right leg
+  - first:
+      4: 400102
+    second: Right shoulder
+  - first:
+      4: 400104
+    second: Right toe
+  - first:
+      4: 400106
+    second: Right wrist
+  - first:
+      4: 400108
+    second: RightEye
+  - first:
+      4: 400110
+    second: RingFinger1_L
+  - first:
+      4: 400112
+    second: RingFinger1_R
+  - first:
+      4: 400114
+    second: RingFinger2_L
+  - first:
+      4: 400116
+    second: RingFinger2_R
+  - first:
+      4: 400118
+    second: RingFinger3_L
+  - first:
+      4: 400120
+    second: RingFinger3_R
+  - first:
+      4: 400122
+    second: Spine
+  - first:
+      4: 400124
+    second: Thumb0_L
+  - first:
+      4: 400126
+    second: Thumb0_R
+  - first:
+      4: 400128
+    second: Thumb1_L
+  - first:
+      4: 400130
+    second: Thumb1_R
+  - first:
+      4: 400132
+    second: Thumb2_L
+  - first:
+      4: 400134
+    second: Thumb2_R
+  - first:
+      4: 400136
+    second: Wing1_1_L
+  - first:
+      4: 400138
+    second: Wing1_1_R
+  - first:
+      4: 400140
+    second: Wing1_2_L
+  - first:
+      4: 400142
+    second: Wing1_2_R
+  - first:
+      4: 400144
+    second: Wing2_1_L
+  - first:
+      4: 400146
+    second: Wing2_1_R
+  - first:
+      4: 400148
+    second: Wing2_2_L
+  - first:
+      4: 400150
+    second: Wing2_2_R
+  - first:
+      4: 400152
+    second: Wing3_1_L
+  - first:
+      4: 400154
+    second: Wing3_1_R
+  - first:
+      4: 400156
+    second: Wing3_2_L
+  - first:
+      4: 400158
+    second: Wing3_2_R
+  - first:
+      4: 400160
+    second: Wing4_1_L
+  - first:
+      4: 400162
+    second: Wing4_1_R
+  - first:
+      4: 400164
+    second: Wing4_2_L
+  - first:
+      4: 400166
+    second: Wing4_2_R
+  - first:
+      4: 400168
+    second: Wing5_1_L
+  - first:
+      4: 400170
+    second: Wing5_1_R
+  - first:
+      4: 400172
+    second: Wing5_2_L
+  - first:
+      4: 400174
+    second: Wing5_2_R
+  - first:
+      4: 400176
+    second: Wing6_1_L
+  - first:
+      4: 400178
+    second: Wing6_1_R
+  - first:
+      4: 400180
+    second: Wing6_2_L
+  - first:
+      4: 400182
+    second: Wing6_2_R
+  - first:
+      4: 400184
+    second: Wing7_1_L
+  - first:
+      4: 400186
+    second: Wing7_1_R
+  - first:
+      4: 400188
+    second: Wing7_2_L
+  - first:
+      4: 400190
+    second: Wing7_2_R
+  - first:
+      43: 4300000
+    second: body
+  - first:
+      74: 7400000
+    second: Idle
+  - first:
+      74: 7400002
+    second: Forward
+  - first:
+      74: 7400004
+    second: Back
+  - first:
+      74: 7400006
+    second: Attack
+  - first:
+      74: 7400008
+    second: Attack_02
+  - first:
+      74: 7400010
+    second: Damage
+  - first:
+      74: 7400012
+    second: Dead
+  - first:
+      74: 7400014
+    second: Dead_02
+  - first:
+      74: 7400016
+    second: Walk
+  - first:
+      74: 7400018
+    second: Run
+  - first:
+      74: 7400020
+    second: Standing
+  - first:
+      74: 7400022
+    second: Emote
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: body
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Forward
+      takeName: Forward
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Back
+      takeName: Back
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Attack
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_02
+      takeName: Attack_02
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Damage
+      takeName: Damage
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dead
+      takeName: Dead
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dead_02
+      takeName: Dead_02
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Standing
+      takeName: Standing
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Emote
+      takeName: Emote
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/ButtTail1
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2
+        weight: 1
+      - path: Hips/ButtTail1/ButtTail2/ButtTail3
+        weight: 1
+      - path: Hips/Left leg
+        weight: 1
+      - path: Hips/Left leg/Left knee
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Hips/Right leg
+        weight: 1
+      - path: Hips/Right leg/Right knee
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Breast2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LittleFinger1_L/LittleFinger2_L/LittleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Thumb0_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing5_1_L/Wing5_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing6_1_L/Wing6_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/Wing7_1_L/Wing7_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing3_1_L/Wing3_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Wing4_1_L/Wing4_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing1_1_L/Wing1_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Left shoulder/Left arm/Wing2_1_L/Wing2_2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_L/Ear2_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Ear1_R/Ear2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eye_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_L
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/Eyebrow_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/LeftEye
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/Head/RightEye
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/LittleFinger1_R/LittleFinger2_R/LittleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Thumb0_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing5_1_R/Wing5_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing6_1_R/Wing6_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right wrist/Wing7_1_R/Wing7_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing3_1_R/Wing3_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Wing4_1_R/Wing4_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing1_1_R/Wing1_2_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R
+        weight: 1
+      - path: Hips/Spine/Chest/Right shoulder/Right arm/Wing2_1_R/Wing2_2_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
