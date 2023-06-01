@@ -19,13 +19,13 @@ public class Akane_CharacterController : MonoBehaviour
 
     void Update()
     {
-        groundedPlayer = controller.isGrounded;
+        //groundedPlayer = controller.isGrounded;
         if (groundedPlayer && playerVelocity.y < 0)
         {
             playerVelocity.y = 0f;
         }
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
-        controller.Move(move * Time.deltaTime * playerSpeed);
+        //controller.Move(move * Time.deltaTime * playerSpeed);
 
         if (move != Vector3.zero)
         {
@@ -37,6 +37,6 @@ public class Akane_CharacterController : MonoBehaviour
         }
 
         playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
+        //controller.Move(playerVelocity * Time.deltaTime);
     }
 }

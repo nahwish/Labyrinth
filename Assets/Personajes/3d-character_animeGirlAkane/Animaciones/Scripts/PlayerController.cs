@@ -22,17 +22,9 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        bool isGrounded = Physics.Raycast(transform.position, Vector3.down, controller.height / 2f + 0.1f);
+        //bool isGrounded = Physics.Raycast(transform.position, Vector3.down, controller.height / 2f + 0.1f);
 
-        if (!isGrounded)
-        {
-            playerVelocity.y += mGravity * Time.deltaTime;
-        }
-        else
-        {
-            playerVelocity.y = 0f;
-        }
-
+       
         cameraRay = Camera.main;
 
         RaycastHit hitData;
@@ -54,6 +46,6 @@ public class PlayerController : MonoBehaviour
         float tiltAngle = Mathf.Clamp(playerVelocity.magnitude * maxTiltAngle, -maxTiltAngle, maxTiltAngle);
         transform.rotation = Quaternion.Euler(tiltAngle, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
 
-        controller.Move(playerVelocity * Time.deltaTime);
+        //controller.Move(playerVelocity * Time.deltaTime);
     }
 }
