@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    Animator anim;
     [SerializeField] float walkSpeed = 3f;
     float mHorizontal;
     float mVertical;
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -25,16 +27,7 @@ public class PlayerController : MonoBehaviour
         //bool isGrounded = Physics.Raycast(transform.position, Vector3.down, controller.height / 2f + 0.1f);
 
        
-        cameraRay = Camera.main;
 
-        RaycastHit hitData;
-        int layerMask = LayerMask.GetMask("Floor");
-        if (Physics.Raycast(cameraRay.ScreenPointToRay(Input.mousePosition), out hitData, 100, layerMask))
-        {
-            mouseWorldPosition = hitData.point;
-        }
-        mouseWorldPosition.y = 0f;
-        transform.LookAt(mouseWorldPosition);
 
         mHorizontal = Input.GetAxis("Horizontal");
         mVertical = Input.GetAxis("Vertical");
