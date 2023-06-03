@@ -6,15 +6,15 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     Animator anim;
-    [SerializeField] float walkSpeed = 3f;
+    [SerializeField] [Range(0,8)] float walkSpeed = 3f;
+    [SerializeField] [Range(8,15)] float runSpeed = 9f;
     float walking;
-    [SerializeField] float runSpeed = 5f;
     float running;
-    float mHorizontal;
-    float mVertical;
+    public float mHorizontal;
+    public float mVertical;
     [SerializeField] UnityEngine.CharacterController controller; // Utiliza UnityEngine.CharacterController
     float mGravity = -9.81f;
-    Vector3 playerVelocity;
+    public Vector3 playerVelocity;
 
     [SerializeField] float maxTiltAngle = 45f; // Ángulo máximo de inclinación hacia adelante
 
