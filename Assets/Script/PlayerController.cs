@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
     {
         UpdatePosition();
         GetAxisInput();
+        RotationPlayer();
+    
     }
 
     void GetAxisInput()
@@ -39,10 +41,32 @@ public class PlayerController : MonoBehaviour
 
     void UpdatePosition()
     {
+        if( controller.isGrounded && playerVelocity.y < 0 )
+        {
+            playerVelocity.y = 0;
+        }
+        playerVelocity.y += mGravity * Time.deltaTime;
+
         Vector3 move = new Vector3(mHorizontal, playerVelocity.y, mVertical);
         move = this.transform.TransformDirection(move);
         controller.Move(move * Time.deltaTime * walkSpeed);
     }
+ 
+   void RotationPlayer()
+{
+    if (Input.GetKey(KeyCode.LeftArrow))
+    {
+        Quaternion deltaRotation = Quaternion.Euler(Vector3.up * -40 * Time.deltaTime);
+        transform.rotation = deltaRotation * transform.rotation;
+    }
+    
+    if (Input.GetKey(KeyCode.RightArrow))
+    {
+        Quaternion deltaRotation = Quaternion.Euler(Vector3.up * 40 * Time.deltaTime);
+        transform.rotation = deltaRotation * transform.rotation;
+    }
+}
+
 }
 
 

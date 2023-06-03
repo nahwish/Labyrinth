@@ -7,24 +7,45 @@ public class AnimationPlayer : MonoBehaviour
     [SerializeField] PlayerController playerController;
     Vector3 playerVelocity;
     float mHorizontal;
+    float mVertical;
     Animator anim;
     void Start()
     {
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         mHorizontal = playerController.mHorizontal;
+        mVertical = playerController.mVertical;
         UpdateAnimation();
+        Dance();
+        
     }
 
     void UpdateAnimation()
     {
             
-        if (mHorizontal > 0)
-            Debug.Log(" y entra");
+        if (mVertical > 0)
         {
+            if (Input.GetKey(KeyCode.LeftShift)) 
+            {
+                anim.SetBool("isWalk", false);
+                anim.SetBool("isRun", true);
+            }
+            anim.SetBool("isRun", false);
+            anim.SetBool("isWalk", true);
+        }else{
+            anim.SetBool("isWalk", false);
+
         }
     }
+       void Dance(){
+        if(Input.GetKey(KeyCode.B)){
+            anim.SetBool("dance",true);
+            }else{anim.SetBool("dance",false);}
+    }
+    
+
 }
