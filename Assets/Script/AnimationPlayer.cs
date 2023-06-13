@@ -40,6 +40,19 @@ public class AnimationPlayer : MonoBehaviour
             anim.SetBool("isWalk", false);
 
         }
+
+        if(Input.GetKey(KeyCode.A))
+        {
+            anim.SetBool("isWalkL", true);
+        }else{
+            anim.SetBool("isWalkL",false);
+        }
+        if(Input.GetKey(KeyCode.S))
+        {
+            anim.SetBool("isWalkB", true);
+        }else{
+            anim.SetBool("isWalkB",false);
+        }
     }
        void Dance(){
         if(Input.GetKey(KeyCode.B)){
