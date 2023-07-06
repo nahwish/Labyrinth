@@ -8,6 +8,9 @@ TagManager:
   - virtualCamera
   - Floor
   - Bullets
+  - laberinto
+  - FxTemporaire
+  - lucesInicio
   layers:
   - Default
   - TransparentFX

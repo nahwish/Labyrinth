@@ -15,9 +15,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] UnityEngine.CharacterController controller; // Utiliza UnityEngine.CharacterController
     float mGravity = -9.81f;
     public Vector3 playerVelocity;
-
     [SerializeField] float maxTiltAngle = 45f; // Ángulo máximo de inclinación hacia adelante
-
+    public float rotationSpeed = 100.0f;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -25,10 +24,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        UpdatePosition();
         GetAxisInput();
-        RotationPlayer();
-    
+
+        UpdatePosition();
+
     }
 
     void GetAxisInput()
@@ -41,39 +40,25 @@ public class PlayerController : MonoBehaviour
 
     void UpdatePosition()
     {
+        RotateCharacter();
         if( controller.isGrounded && playerVelocity.y < 0 )
         {
             playerVelocity.y = 0;
         }
         playerVelocity.y += mGravity * Time.deltaTime;
-
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D) ||Input.GetKey(KeyCode.S)){
+            
         Vector3 move = new Vector3(mHorizontal, playerVelocity.y, mVertical);
         move = this.transform.TransformDirection(move);
         controller.Move(move * Time.deltaTime * walkSpeed);
+        }
     }
- 
-   void RotationPlayer()
-{
-    if (Input.GetKey(KeyCode.LeftArrow))
-    {
-        Quaternion deltaRotation = Quaternion.Euler(Vector3.up * -40 * Time.deltaTime);
-        transform.rotation = deltaRotation * transform.rotation;
-    }
-    
-    if (Input.GetKey(KeyCode.RightArrow))
-    {
-        Quaternion deltaRotation = Quaternion.Euler(Vector3.up * 40 * Time.deltaTime);
-        transform.rotation = deltaRotation * transform.rotation;
-    }
+
+void RotateCharacter(){
+    if (Input.GetKey(KeyCode.LeftArrow)) transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
+    if (Input.GetKey(KeyCode.RightArrow)) transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);    
 }
 
 }
 
 
-        //bool isGrounded = Physics.Raycast(transform.position, Vector3.down, controller.height / 2f + 0.1f);
-
-        // // Inclinar hacia adelante
-        // float tiltAngle = Mathf.Clamp(playerVelocity.magnitude * maxTiltAngle, -maxTiltAngle, maxTiltAngle);
-        // transform.rotation = Quaternion.Euler(tiltAngle, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
-
-        //controller.Move(playerVelocity * Time.deltaTime);
