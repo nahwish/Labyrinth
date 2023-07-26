@@ -4,22 +4,25 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public GameObject animation1; // Objeto de explosión que se instanciará
+    [SerializeField] [Tooltip("Vida inicial del enemigo")] [Range(1,100)]
+    [Header("Vida inicial")]
+    private float maxhealth = 100f;
+    [Tooltip("Vida actual del enemigo")]
+    [Header("Vida Actual")]
+    public float currentHealth;
+
+    void Start(){
+        currentHealth = maxhealth;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            
+    void OnTriggerEnter(Collider other){
+        if(other.gameObject.tag == "Bullets"){
+            currentHealth -= 25;
         }
-
+        if(currentHealth <= 0){
+            Instantiate(animation1, transform.position, Quaternion.identity);
+            Destroy (this.gameObject); //Destruye el objeto al llegar a cero
+        }
     }
 }

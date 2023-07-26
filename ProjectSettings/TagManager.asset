@@ -11,6 +11,8 @@ TagManager:
   - laberinto
   - FxTemporaire
   - lucesInicio
+  - shield
+  - Duck
   layers:
   - Default
   - TransparentFX

@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class AnimationPlayer : MonoBehaviour
 {
+    [Header("Animacion para la muerte del personaje")]
+    [Tooltip("Barra de vida del personaje")] [SerializeField] ProgressBar Pb;
     [SerializeField] PlayerController playerController;
+
     Vector3 playerVelocity;
     float mHorizontal;
     float mVertical;
-    Animator anim;
+    [Tooltip("Maquina de animacion del personaje")] Animator anim;
     void Start()
     {
         anim = GetComponent<Animator>();

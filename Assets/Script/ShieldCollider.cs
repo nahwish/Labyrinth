@@ -4,15 +4,34 @@ using UnityEngine;
 
 public class ShieldCollider : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Animator anim;
+    public GameObject auraCollider;
+    private bool isShieldActive = false;
+
+    private void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            anim.SetBool("isShield", true);
+            auraCollider.SetActive(true);
+            Invoke("DisableAuraCollider", 7f);
+            isShieldActive = true;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void DisableAuraCollider()
     {
+        auraCollider.SetActive(false);
+        isShieldActive = false;
+    }
+    private void OnCollisionEnter(Collision otherCollider)
+    {
+        if (otherCollider.collider.CompareTag("wall"))
+        {
+
+            GetComponent<Collider>().enabled = false;
+        }
         
     }
+   
 }
