@@ -13,6 +13,7 @@ public class CameraZone : MonoBehaviour
     [SerializeField]
     GameObject oraculoFP;
 
+
     [SerializeField]
     GameObject oraculo;
 
@@ -25,6 +26,7 @@ public class CameraZone : MonoBehaviour
     [SerializeField]
     GameObject cameraRegular;
 
+   
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

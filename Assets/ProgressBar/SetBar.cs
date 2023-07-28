@@ -5,7 +5,7 @@ using UnityEngine;
 public class SetBar : MonoBehaviour
 {
     public ProgressBar Pb;
-    public int Value = 100;
+    public int Value = 65;
     Animator anim;
 
 
@@ -13,13 +13,7 @@ public class SetBar : MonoBehaviour
     void Start()
     {
         Pb.BarValue = Value;
-        anim = GetComponent<Animator>();
     }
-    void Update() {
-    if(Pb.BarValue == 0){
-        anim.Set
-    }
-        
-    }
+    
     
 }

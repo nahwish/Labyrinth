@@ -25,4 +25,13 @@ public class Enemy : MonoBehaviour
             Destroy (this.gameObject); //Destruye el objeto al llegar a cero
         }
     }
+    void OnColliderEnter(Collider other){
+        if(other.gameObject.tag == "Bullets"){
+            currentHealth -= 50;
+        }
+        if(currentHealth <= 0){
+            Instantiate(animation1, transform.position, Quaternion.identity);
+            Destroy (this.gameObject); //Destruye el objeto al llegar a cero
+        }
+    }
 }

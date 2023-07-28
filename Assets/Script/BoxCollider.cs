@@ -11,6 +11,7 @@ public class BoxCollider : MonoBehaviour
             Debug.Log("Desactivar collider de la caja");
             GetComponent<Collider>().enabled = false;
         }
+       
     }
 }
 

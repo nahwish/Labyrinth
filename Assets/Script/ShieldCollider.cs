@@ -6,6 +6,7 @@ public class ShieldCollider : MonoBehaviour
 {
     public Animator anim;
     public GameObject auraCollider;
+    public GameObject auraShine;
     private bool isShieldActive = false;
 
     private void Update()
@@ -14,6 +15,7 @@ public class ShieldCollider : MonoBehaviour
         {
             anim.SetBool("isShield", true);
             auraCollider.SetActive(true);
+            Invoke("Shine",1.5f);
             Invoke("DisableAuraCollider", 7f);
             isShieldActive = true;
         }
@@ -23,6 +25,9 @@ public class ShieldCollider : MonoBehaviour
     {
         auraCollider.SetActive(false);
         isShieldActive = false;
+    }
+    private void Shine(){
+        auraShine.SetActive(false);
     }
     private void OnCollisionEnter(Collision otherCollider)
     {

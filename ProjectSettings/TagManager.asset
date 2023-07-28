@@ -13,6 +13,11 @@ TagManager:
   - lucesInicio
   - shield
   - Duck
+  - shieldArrow
+  - arco
+  - opciones
+  - Zona1
+  - ExitCollider
   layers:
   - Default
   - TransparentFX

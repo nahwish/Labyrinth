@@ -5,11 +5,18 @@ using UnityEngine.AI;
 
 public class SetShield : MonoBehaviour
 {
+    [Header("Escudo protector del arco y flecha")]
+    [SerializeField] GameObject escudo;
     public float immobilizeDuration = 2.0f;
     private Coroutine immobilizeCoroutine;
 
     private void OnTriggerEnter(Collider other)
     {
+        
+        
+        
+        Invoke("ActiveTrue",5f);
+        Invoke("ActiveFalse",1f);
         if (other.CompareTag("Duck"))
         {
             NavMeshAgent enemyNavAgent = other.GetComponent<NavMeshAgent>();
@@ -27,7 +34,13 @@ public class SetShield : MonoBehaviour
             }
         }
     }
-
+    private void ActiveTrue(){
+        escudo.SetActive(true);
+    }
+    private void ActiveFalse(){
+        escudo.SetActive(false);
+    }
+   
     private IEnumerator ImmobilizeEnemy(NavMeshAgent enemyNavAgent)
     {
         yield return new WaitForSeconds(immobilizeDuration);
@@ -50,4 +63,5 @@ public class SetShield : MonoBehaviour
             }
         }
     }
+    
 }
