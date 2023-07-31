@@ -6,17 +6,22 @@ using UnityEngine.AI;
 public class SetShield : MonoBehaviour
 {
     [Header("Escudo protector del arco y flecha")]
-    [SerializeField] GameObject escudo;
+    [SerializeField]
+    [Tooltip("Escudo que proteje el arco y flecha")]
+    GameObject escudo;
+
+    [SerializeField]
+    [Tooltip("Escudo que proteje el oraculo")]
+    GameObject escudoOraculo;
     public float immobilizeDuration = 2.0f;
     private Coroutine immobilizeCoroutine;
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        
-        
-        Invoke("ActiveTrue",5f);
-        Invoke("ActiveFalse",1f);
+        Invoke("ActiveTrue", 5f);
+        Invoke("ActiveFalse", 1f);
+        Invoke("DestroyOracleShield", 1f);
+        Invoke("DestroyOracleShieldFalse", 10f);
         if (other.CompareTag("Duck"))
         {
             NavMeshAgent enemyNavAgent = other.GetComponent<NavMeshAgent>();
@@ -34,13 +39,27 @@ public class SetShield : MonoBehaviour
             }
         }
     }
-    private void ActiveTrue(){
+
+    private void ActiveTrue()
+    {
         escudo.SetActive(true);
     }
-    private void ActiveFalse(){
+
+    private void DestroyOracleShield()
+    {
+        escudoOraculo.SetActive(false);
+    }
+
+    private void DestroyOracleShieldFalse()
+    {
+        escudoOraculo.SetActive(true);
+    }
+
+    private void ActiveFalse()
+    {
         escudo.SetActive(false);
     }
-   
+
     private IEnumerator ImmobilizeEnemy(NavMeshAgent enemyNavAgent)
     {
         yield return new WaitForSeconds(immobilizeDuration);
@@ -63,5 +82,4 @@ public class SetShield : MonoBehaviour
             }
         }
     }
-    
 }

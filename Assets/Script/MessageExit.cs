@@ -17,7 +17,6 @@ public class MessageExit : MonoBehaviour
     {
         if (Pb.BarValue >= 100)
         {
-
             messageExit.SetActive(false);
         }
         

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DestroyPrefabsOnKeyPress : MonoBehaviour
 {
+    public GameObject portalExit;
+    public GameObject colliderExit;
     public ProgressBarCircle Pb;
     public GameObject[] prefabsToDestroy; // Los prefabs que se destruirán.
     public GameObject explosionPrefab; // Prefab de la explosión
@@ -55,6 +57,8 @@ public class DestroyPrefabsOnKeyPress : MonoBehaviour
     }
 
     isDestroying = false;
+    portalExit.SetActive(true);
+    colliderExit.SetActive(false);
 }
 
 }

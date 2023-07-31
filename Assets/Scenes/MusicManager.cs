@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-    public AudioClip[] zoneMusic; // Array de pistas de música para cada zona en orden.
+    public AudioClip[] zoneMusic;
     private AudioSource audioSource;
 
     private void Start()
     {
-        // Asegurarse de que el personaje tenga un AudioSource (agregarlo si no existe).
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
         {
@@ -19,21 +18,30 @@ public class MusicManager : MonoBehaviour
     {
         if (other.CompareTag("Zona1"))
         {
-            PlayMusic(0); // Índice 0 para la música de la Zona1.
+            PlayMusic(0);
         }
         else if (other.CompareTag("ExitCollider"))
         {
-            PlayMusic(1); // Índice 1 para la música de la Zona2.
+            PlayMusic(1);
         }
-        // Agrega más comparaciones y cambios de música para cada zona adicional.
+        else if (other.CompareTag("Zona2"))
+        {
+            PlayMusic(2);
+        }
     }
-private void OnTriggerExit(Collider other)
-{
-    if (other.CompareTag("Zona1")){
-    audioSource.Stop();
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Zona1"))
+        {
+            audioSource.Stop();
+        }
+        if (other.CompareTag("ExitCollider"))
+        {
+            audioSource.Stop();
+        }
     }
-    
-}
+
     private void PlayMusic(int index)
     {
         if (index >= 0 && index < zoneMusic.Length)
