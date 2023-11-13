@@ -9,13 +9,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: N00_002_01_Tops_01_CLOTH (Instance)
   m_Shader: {fileID: 4800000, guid: f44128d0973799146a46f8a10d942021, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: -1
   stringTagMap:
-    RenderType: TransparentCutout
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -86,8 +86,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaToMask: 1
-    - _BlendMode: 1
+    - _AlphaToMask: 0
+    - _BlendMode: 0
     - _BumpScale: 1
     - _CullMode: 0
     - _Cutoff: 0
@@ -127,8 +127,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.044544328, g: 0.1690784, b: 0.8584906, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 0, g: 0.84967804, b: 1, a: 1}
+    - _ShadeColor: {r: 1, g: 0.9780377, b: 0, a: 1}
   m_BuildTextureStacks: []

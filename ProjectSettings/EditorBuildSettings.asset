@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Laberinto.unity
+    guid: e8458b15af1e4d5488abf76c6a1d3424
+  - enabled: 1
+    path: Assets/Scenes/mainMenu.unity
+    guid: 7f9ba8f09f5bba64587087c68ae9e6ca
   m_configObjects: {}
