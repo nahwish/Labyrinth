@@ -8,13 +8,14 @@ public class CameraFollow : MonoBehaviour
     Transform objectToFollow;
     [SerializeField]
     float smoothSpeed = 10.0f;
-
+    bool isCameraActiveZone = false;
     Vector3 cameraOffset;
     Vector3 cameraPosition;
 
     [SerializeField] GameObject lookBackCamera;
     [SerializeField] GameObject regularCamera;
     [SerializeField] Animator anim;
+  
 
     void Start()
     {
@@ -32,7 +33,7 @@ public class CameraFollow : MonoBehaviour
 
     void setCamBack()
         {
-            if(Input.GetKeyDown(KeyCode.T))
+            if(Input.GetKeyDown(KeyCode.T) && !isCameraActiveZone)
             {
                 if (regularCamera.activeSelf)
             {
@@ -40,7 +41,7 @@ public class CameraFollow : MonoBehaviour
             }
                 lookBackCamera.SetActive(true);
             }
-            if(Input.GetKeyDown(KeyCode.Y))
+            if(Input.GetKeyDown(KeyCode.Y)&& !isCameraActiveZone)
             {
                 if (lookBackCamera.activeSelf)
             {
@@ -49,4 +50,6 @@ public class CameraFollow : MonoBehaviour
                 regularCamera.SetActive(true);
             }
         }
+        
+
 }

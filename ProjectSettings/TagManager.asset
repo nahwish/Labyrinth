@@ -8,11 +8,27 @@ TagManager:
   - virtualCamera
   - Floor
   - Bullets
+  - laberinto
+  - FxTemporaire
+  - lucesInicio
+  - shield
+  - Duck
+  - shieldArrow
+  - arco
+  - opciones
+  - Zona1
+  - ExitCollider
+  - cristalVerde
+  - cristalAzul
+  - cristalRosa
+  - shieldOraculo
+  - oraculoShield
+  - Zona2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Post Processing
   - Water
   - UI
   - 
