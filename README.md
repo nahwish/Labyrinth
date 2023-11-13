@@ -4,36 +4,24 @@
 
 **Labyrinth** es un juego de escritorio en 3D desarrollado con Unity y C#. La premisa del juego es salir del limbo, una tarea que te sumerge en la exploración de un mundo onírico en busca de tres cristales esenciales. Estos cristales son necesarios para ejecutar un conjuro que abrirá un portal y te permitirá escapar. A medida que avanzas, recuperarás tus pertenencias, las cuales serán cruciales para atravesar el limbo y sumergirte en el laberinto, el último desafío que debes superar para obtener el cristal restante.
 
-<img src="./public/funny.png" alt="imagen de portada del videojuego">
+<img src="./public/labyrinth.png" alt="imagen de portada del videojuego">
 
 <hr/>
 
 <p align="center">
-Pantalla de inicio
-</p>
-
-<p align="center">
-<img src="./public/FUNNY-START.gif" width="300" alt="gif del inicio del juego"> 
+<img src="./public/LABYRINTH-UNO.gif" width="300" alt="gif del inicio del juego"> 
 </p>
 
 <hr/>
 
 <p align="center">
-Gameplay
-</p>
-
-<p align="center">
-<img src="./public/FUNNY-GAME.gif"  width="300" alt="gif del gameplay"> 
+<img src="./public/LABYRINTH-DOS.gif"  width="300" alt="gif del gameplay"> 
 </p>
 
 <hr/>
 
 <p align="center">
-Pantalla game over
-</p>
-
-<p align="center">
-<img src="./public/FUNNY-GAMEOVER.gif" width="300" alt="gif de la pantala game over">
+<img src="./public/LABYRINTH-MENU.gif" width="300" alt="gif de la pantala game over">
 </p>
 
 <hr/>
@@ -54,7 +42,7 @@ Si aún no has instalado Unity en tu sistema, sigue estos pasos:
 Clona este repositorio o descárgalo como un archivo ZIP.
 
    ```
-   git clone git@github.com:nahwish/funnycrash.git
+   git clone git@github.com:nahwish/labyrinth.git
    ```
 
 3. *Abrir el Proyecto en Unity*
